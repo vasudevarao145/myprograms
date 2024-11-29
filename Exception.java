@@ -1,0 +1,23 @@
+class Exception
+{
+	public static void main(String[] args)
+	{
+		int a[]=new int[10];
+		try
+		{
+			System.out.println("deny access");
+			System.out.println(a[10]);
+		}
+		catch
+		{
+			System.out.println("index out of bondary");
+		}
+		
+		{
+			System.out.println("exceptiin occur"+e);
+		}
+	}
+}
+			
+			
+			

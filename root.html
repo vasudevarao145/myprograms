@@ -1,0 +1,19 @@
+<html>
+<body>
+<button onclick="calculateSquareRoot()">Calculate Square Root</button>
+<script>
+function calculateSquareRoot() {
+
+let number = parseFloat(prompt("Enter a non-negative number:"));
+
+if (isNaN(number) || number < 0) {
+alert("Please enter a valid non-negative number.");
+} else {
+
+let squareRoot = Math.sqrt(number);
+alert("Square Root: " + squareRoot);
+}
+}
+</script>
+</body>
+</html>
